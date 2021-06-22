@@ -12,10 +12,11 @@
   --secondary-background: #f5f4fa;
   --logo-font: 'Raleway', sans-serif;
   --button-color: #2196f3;
-  --main-font: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+  --main-font: 'Roboto', sans-serif;
 }
 
 .body {
+  font-family: var(--main-font);
   background-color: var(--white-color);
   color: var(--text-color);
 }
@@ -34,19 +35,13 @@
   color: #2196f3;
 }
 
-.site-nav {
-  color: var(--accent-color);
-  height: 16px;
-  top: 32px;
-}
-
+.site-nav,
 .contact-nav {
-  height: 16px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;
-  color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 .nav-link:hover,
@@ -57,4 +52,25 @@
 .contact-nav:hover,
 .contact-nav:focus {
   color: var(--accent-color);
+}
+
+.link-current {
+  color: var(--accent-color);
+}
+
+.hero {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--whate-color);
+  background-color: var(--secondary-background);
+}
+
+.button-primary {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
