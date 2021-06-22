@@ -1,0 +1,37 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый #FFFFFF  */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+  --text-color: #757575;
+  --secondary-color: #212121;
+  --whate-color: #ffffff;
+  --accent-color: #2196f3;
+  --secondary-background: #f5f4fa;
+  --logo-font: 'Raleway', sans-serif;
+  --button-color: #2196f3;
+  --main-font: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+}
+
+.body {
+  background-color: var(--white-color);
+  color: var(--text-color);
+}
+
+.page-logo {
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+}
+
+.first-half-logo {
+  color: #2196f3;
+}
