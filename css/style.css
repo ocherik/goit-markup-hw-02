@@ -22,8 +22,6 @@
 
 .page-logo {
   height: 31px;
-  left: 215px;
-  top: 24px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -34,4 +32,29 @@
 
 .first-half-logo {
   color: #2196f3;
+}
+
+.site-nav {
+  color: var(--accent-color);
+  height: 16px;
+  top: 32px;
+}
+
+.contact-nav {
+  height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-nav:hover,
+.contact-nav:focus {
+  color: var(--accent-color);
 }
