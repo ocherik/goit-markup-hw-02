@@ -16,7 +16,7 @@
 }
 
 .body {
-  font-family: var(--main-font);
+  font-family: 'Roboto', sans-serif;
   background-color: var(--white-color);
   color: var(--text-color);
 }
