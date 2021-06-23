@@ -7,27 +7,29 @@
 :root {
   --text-color: #757575;
   --secondary-color: #212121;
-  --whate-color: #ffffff;
+  --white-color: #ffffff;
   --accent-color: #2196f3;
   --secondary-background: #f5f4fa;
   --logo-font: 'Raleway', sans-serif;
   --button-color: #2196f3;
   --main-font: 'Roboto', sans-serif;
+  --footer-backround: #2f303a;
 }
 
-.body {
+body {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
   background-color: var(--white-color);
-  color: var(--text-color);
 }
 
 .page-logo {
   height: 31px;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.2em;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
@@ -38,8 +40,14 @@
 .site-nav,
 .contact-nav {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14em;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
@@ -47,6 +55,14 @@
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
+}
+
+.contact-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 .contact-nav:hover,
@@ -59,18 +75,84 @@
 }
 
 .hero {
-  font-style: normal;
   font-weight: bold;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--whate-color);
+  color: var(--white-color);
   background-color: var(--secondary-background);
 }
 
 .button-primary {
   color: var(--white-color);
   background-color: var(--accent-color);
+}
+
+.team-section {
+  background-color: var(--secondary-background);
+}
+
+.footer-page {
+  color: var(--white-color);
+  background-color: var(--footer-backround);
+}
+
+.second-half-logo {
+  color: var(--white-color);
+}
+
+h2 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+h3 {
+  color: var(--secondary-color);
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-family: Roboto;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.manager-desc {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.footer-adress {
+  font-style: normal;
+  font-family: Roboto;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.adress {
+  color: var(--white-color);
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+li {
+  list-style-type: none;
 }
