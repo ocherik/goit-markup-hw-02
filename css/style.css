@@ -80,8 +80,14 @@ body {
 /* ЗНАЧЕНИЯ КНОПОК */
 
 .button-primary {
+  font-family: inherit;
   color: var(--white-color);
   background-color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 button {
@@ -95,6 +101,7 @@ button {
 }
 
 .portfolio-button {
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
@@ -113,8 +120,22 @@ button {
   background-color: var(--secondary-background);
 }
 
+.hero-title {
+  font-size: 44px;
+line-height: 60px;
+}
+
 .team-section {
   background-color: var(--secondary-background);
+}
+
+.name {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
 }
 
 .manager-desc {
@@ -176,6 +197,7 @@ h2 {
 
 h3.about-title {
   font-weight: bold;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
